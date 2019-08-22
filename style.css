@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Livvic", sans-serif;
+    background: #eee;
+    text-align: center;
+}
+
+.form-control {
+    margin: 30px auto;
+}
+
+.citytxt {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgb(131, 131, 131);
+    border-radius: 1px;
+    color: rgb(151, 151, 151);
+}
+
+.searchbtn {
+    padding: 9px;
+    border: none;
+    outline: none;
+    background: rgb(25, 206, 106);
+    box-shadow: 5px 5px 10px rgb(131, 131, 131);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-weather {
+    border: 1px solid #555;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.city {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.date {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.weather-img {
+    margin-top: 30px;
+}
+
+.temp_c {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 49px;
+    margin-left: 29px;
+}
+
+.weather-desc {
+    margin-top: 45px;
+}
+
+.weather-onday {
+    text-align: center;
+    width: 20%;
+    border: 1px solid rgb(158, 158, 158);
+    padding: 20px;
+    margin-top: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.weather-onday:hover {
+    background: rgb(204, 204, 204);
+}
+
+.weather-onday {
+    border-left: none;
+}
+
+.weather-onday:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 1px solid #555;
+}
+
+.weather-onday:nth-child(5) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.forecast-tempc,
+.forecast-weekday {
+    font-weight: bold;
+}
